@@ -1,0 +1,23 @@
+:root {
+  --primary-bg-color: #1f2937;
+  --secondary-bg-color: #4b5563;
+  --tertiary-bg-color: #6b7280;
+  --action-color: #0ea5e9;
+  --action-hover-color: #0284c7;
+  --text-color: #f3f4f6;
+  --shadow: 0 2em 4em -1em rgb(0 0 0 / 0.25);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
+  overflow: hidden;
+}

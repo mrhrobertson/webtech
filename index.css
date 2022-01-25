@@ -1,0 +1,39 @@
+#menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--secondary-bg-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--shadow);
+}
+
+#lab-list {
+  display: grid;
+  list-style-type: none;
+  padding: 2rem;
+  background-color: var(--tertiary-bg-color);
+  border-radius: 1rem;
+  margin: 0 auto;
+  width: 90%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  box-shadow: var(--shadow);
+}
+
+#lab-list li a {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1.5rem 3rem;
+  border-radius: 0.5rem;
+  background-color: var(--action-color);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+#lab-list li a:hover {
+  background-color: var(--action-hover-color);
+}
